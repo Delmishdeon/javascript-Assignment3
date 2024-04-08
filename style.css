@@ -1,0 +1,54 @@
+body {
+    background-color: #87CEEB; /* Sky blue background color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%; 
+    margin: auto; /* Center the container */
+    padding: 20px;
+    background-color: #8dc7d4;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*  shadow for depth */
+    text-align: center;
+    display:flex; 
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children vertically */
+    }
+    
+h1 {
+    font-size: 36px; /* Larger font size for headings */
+    color: #dd0d59; /* Dark blue font color */
+}
+
+p {
+    font-size: 18px; /* Regular font size for paragraphs */
+    color: #333; /* Dark gray font color */
+}
+
+.content {
+    text-align: center;
+}
+
+.highlight {
+    
+    background-color: yellow;
+    text-align: center;
+    margin: 10px 0; /* margin for the highlight */
+    font-size: 24px; /* Font size for interactive element */
+    color: #1E90FF; /* Font color for interactive element */
+}
+
+.Image {
+    position: relative; /* relative positioning */
+    height: 300px;
+    top: 25px; /* top position */
+    left: 580px; /* left position */
+}
+
+/* CSS styles for logo image */
+.logo {
+    width: 100px; 
+    height: auto; 
+}
+
